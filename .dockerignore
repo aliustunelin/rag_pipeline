@@ -1,0 +1,52 @@
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Logs
+*.log
+src/logs/
+
+# Testing
+tests/
+*.pytest_cache
+
+# Temporary files
+tmp/
+*.tmp
+
+# Environment files (we'll copy specific ones)
+.env
+.env.*
+!.env.prod
+!.env.docker
+
+# Documentation
+docs/
+
+# Data
+data/
+

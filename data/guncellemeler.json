@@ -1,0 +1,50 @@
+[
+  {
+    "tarih": "2024-01-15",
+    "etkilenen_madde": "Madde 4.1",
+    "etkilenen_paket": null,
+    "degisiklik": "Tüm paketler için standart iade süresi 14 gün olarak belirlenmiştir.",
+    "onceki_deger": "10 gün",
+    "yeni_deger": "14 gün"
+  },
+  {
+    "tarih": "2024-03-01",
+    "etkilenen_madde": null,
+    "etkilenen_paket": "Pro",
+    "degisiklik": "Pro paket aylık fiyatı 249 TL'den 299 TL'ye güncellenmiştir.",
+    "onceki_deger": "249 TL",
+    "yeni_deger": "299 TL"
+  },
+  {
+    "tarih": "2024-06-01",
+    "etkilenen_madde": "Madde 4.1",
+    "etkilenen_paket": "Pro",
+    "degisiklik": "Pro paket iade süresi 30 güne çıkarılmıştır.",
+    "onceki_deger": "14 gün",
+    "yeni_deger": "30 gün"
+  },
+  {
+    "tarih": "2024-08-15",
+    "etkilenen_madde": null,
+    "etkilenen_paket": "Enterprise",
+    "degisiklik": "Enterprise paket API limiti 50.000'den 100.000'e yükseltilmiştir.",
+    "onceki_deger": "50000",
+    "yeni_deger": "100000"
+  },
+  {
+    "tarih": "2024-10-01",
+    "etkilenen_madde": null,
+    "etkilenen_paket": "Basic",
+    "degisiklik": "Basic paket depolama alanı 3 GB'dan 5 GB'a çıkarılmıştır.",
+    "onceki_deger": "3 GB",
+    "yeni_deger": "5 GB"
+  },
+  {
+    "tarih": "2024-12-01",
+    "etkilenen_madde": "Madde 3.2",
+    "etkilenen_paket": null,
+    "degisiklik": "Gecikme faizi oranı günlük %0.05'ten %0.1'e yükseltilmiştir.",
+    "onceki_deger": "%0.05",
+    "yeni_deger": "%0.1"
+  }
+]

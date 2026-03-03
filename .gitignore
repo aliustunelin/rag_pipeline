@@ -1,0 +1,37 @@
+
+#ignore virtual environment
+.venv/
+
+#ignore faiss store
+shared/faiss_store/
+
+
+#ignore .DS_Store
+.DS_Store
+
+#ignore .pyc files
+*.pyc
+
+#ignore .pyo files
+*.pyo
+
+#ignore .pyd files
+*.pyd
+
+#ignore data directory
+tmp/
+
+.prettierrc
+
+
+venv/
+pyproject.toml
+
+.vscode/
+
+# ignore logs
+logs/
+*.log
+
+__pycache__/
+*.pyc

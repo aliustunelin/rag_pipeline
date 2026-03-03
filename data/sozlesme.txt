@@ -1,0 +1,43 @@
+ŞİRKET MÜŞTERİ SÖZLEŞMESİ
+
+Madde 1: Genel Hükümler
+1.1: Bu sözleşme, şirketimiz ile müşteri arasındaki hizmet ilişkisini düzenler.
+1.2: Sözleşme, her iki tarafın onayı ile yürürlüğe girer.
+1.3: Sözleşme süresi 1 (bir) yıldır ve taraflardan biri fesih bildirimi yapmadıkça otomatik olarak yenilenir.
+
+Madde 2: Hizmet Kapsamı
+2.1: Şirketimiz, müşteriye seçtiği üyelik paketine uygun olarak API erişimi, veri depolama ve teknik destek hizmetleri sunar.
+2.2: Hizmet kapsamı, müşterinin aktif üyelik paketine göre belirlenir. Paket detayları için güncel fiyat listesine başvurunuz.
+2.3: Şirket, hizmet kapsamında önceden bildirim yaparak değişiklik yapma hakkını saklı tutar.
+
+Madde 3: Ödeme Koşulları
+3.1: Üyelik ücreti, her ayın ilk iş günü müşterinin kayıtlı ödeme yönteminden otomatik olarak tahsil edilir.
+3.2: Ödemesi geciken hesaplara günlük %0.1 gecikme faizi uygulanır.
+3.3: Üst üste 3 ay ödeme yapılmaması durumunda hesap askıya alınır ve hizmet durdurulur.
+
+Madde 4: İptal ve İade Koşulları
+4.1: Standart iade süresi satın alım tarihinden itibaren 14 gündür.
+4.2: İade talebi, müşteri panelinden veya destek hattı üzerinden yapılabilir.
+4.3: İade işlemi onaylandıktan sonra ödeme, 5-10 iş günü içinde müşterinin hesabına aktarılır.
+4.4: Yıllık planlarda erken iptal durumunda, kalan süreye oranla hesaplanan tutar iade edilir. İlk 3 aydan sonra yapılan iptallerde %10 erken iptal ücreti kesilir.
+4.5: Ücretsiz deneme süresinde iptal eden müşterilerden herhangi bir ücret talep edilmez.
+
+Madde 5: Veri Güvenliği ve Gizlilik
+5.1: Müşteri verileri, AES-256 şifreleme standardı ile korunur.
+5.2: Şirket, müşteri verilerini üçüncü taraflarla paylaşmaz; yasal zorunluluklar hariçtir.
+5.3: Hesap silinmesi durumunda müşteri verileri 30 gün içinde kalıcı olarak imha edilir.
+
+Madde 6: Teknik Destek
+6.1: Basic paket müşterileri yalnızca e-posta desteğinden yararlanabilir. Yanıt süresi en fazla 48 saattir.
+6.2: Pro paket müşterilerine 7/24 canlı destek ve öncelikli e-posta desteği sağlanır. Yanıt süresi en fazla 4 saattir.
+6.3: Enterprise paket müşterilerine özel müşteri temsilcisi atanır ve SLA garantisi verilir. Yanıt süresi en fazla 1 saattir.
+
+Madde 7: Kullanım Limitleri
+7.1: Her paketin aylık API çağrı limiti bulunmaktadır. Limit aşımında ek ücretlendirme uygulanır.
+7.2: Ek API çağrıları, paketin birim fiyatı üzerinden faturalandırılır.
+7.3: Depolama limiti aşımında müşteriye bildirim gönderilir ve 7 gün içinde ek depolama satın alınması beklenir.
+
+Madde 8: Sözleşme Feshi
+8.1: Taraflardan herhangi biri, 30 gün önceden yazılı bildirimde bulunarak sözleşmeyi feshedebilir.
+8.2: Sözleşme ihlali durumunda şirket, bildirimsiz olarak sözleşmeyi tek taraflı feshedebilir.
+8.3: Fesih sonrası müşterinin verileri Madde 5.3'e uygun olarak işlenir.
