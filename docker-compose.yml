@@ -1,0 +1,43 @@
+services:
+  indexer_service:
+    build:
+      context: ./indexer_service
+      dockerfile: Dockerfile
+    container_name: indexer_service
+    ports:
+      - "3334:3334"
+    volumes:
+      - ./data:/app/data
+      - faiss_store:/app/shared/faiss_store
+    env_file:
+      - .env.docker
+    environment:
+      - DATA_DIR=/app/data
+      - STORE_DIR=/app/shared/faiss_store
+      - INDEXER_HOST=0.0.0.0
+      - INDEXER_PORT=3334
+    restart: unless-stopped
+
+  rag_service:
+    build:
+      context: ./rag_service
+      dockerfile: Dockerfile
+    container_name: rag_service
+    ports:
+      - "1274:1274"
+    volumes:
+      - ./data:/app/data:ro
+      - faiss_store:/app/shared/faiss_store:ro
+    env_file:
+      - .env.docker
+    environment:
+      - STORE_DIR=/app/shared/faiss_store
+      - DATA_DIR=/app/data
+      - RAG_HOST=0.0.0.0
+      - RAG_PORT=1274
+    depends_on:
+      - indexer_service
+    restart: unless-stopped
+
+volumes:
+  faiss_store:
